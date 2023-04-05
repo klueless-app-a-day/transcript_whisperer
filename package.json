@@ -1,0 +1,14 @@
+{
+  "name": "transcript_whisperer",
+  "version": "0.0.1",
+  "description": "A concise command line tool that generates transcriptions from video, audio, or YouTube inputs utilising OpenAI Whisper to produce professionaly edited transcripts.",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@klueless-js/semantic-release-rubygem": "github:klueless-js/semantic-release-rubygem",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^21.0.1"
+  }
+}
