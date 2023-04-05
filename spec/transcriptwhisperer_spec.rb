@@ -5,7 +5,8 @@ RSpec.describe TranscriptWhisperer do
     expect(TranscriptWhisperer::VERSION).not_to be_nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'has a standard error' do
+    expect { raise TranscriptWhisperer::Error, 'some message' }
+      .to raise_error('some message')
   end
 end
