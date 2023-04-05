@@ -12,12 +12,6 @@
       }
     ],
     [
-      "@klueless-js/semantic-release-rubygem",
-      {
-        "gemPublish": true
-      }
-    ],
-    [
       "@semantic-release/changelog",
       { 
         "changelogFile": "CHANGELOG.md",
