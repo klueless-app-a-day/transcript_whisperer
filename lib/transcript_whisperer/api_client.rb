@@ -3,7 +3,6 @@
 module TranscriptWhisperer
   # A simple wrapper around the OpenAI API client
   class APIClient
-    # (api_key: nil)
     def initialize
       @client = OpenAI::Client.new
     end

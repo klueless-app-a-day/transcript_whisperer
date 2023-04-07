@@ -12,6 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Ruby ${{ matrix.ruby }}
+    env:
+      OPENAI_ACCESS_TOKEN: ${{ secrets.OPENAI_ACCESS_TOKEN }}
     strategy:
       matrix:
         ruby: ['2.7.1', '3.1.1']
