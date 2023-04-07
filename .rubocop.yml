@@ -39,6 +39,11 @@ Metrics/BlockLength:
     - shared_examples_for
     - transaction
 
+Lint/EmptyClass:
+  Enabled: false
+Lint/EmptyFile:
+  Enabled: false
+
 Metrics/MethodLength:
   Max: 25
 
