@@ -39,9 +39,14 @@ Metrics/BlockLength:
     - shared_examples_for
     - transaction
 
+# REMEMBER TO REMOVE THESE WHEN YOU ARE DONE
 Lint/EmptyClass:
   Enabled: false
 Lint/EmptyFile:
+  Enabled: false
+RSpec/NoExpectationExample:
+  Enabled: false
+RSpec/Focus:
   Enabled: false
 
 Metrics/MethodLength:

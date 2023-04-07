@@ -19,8 +19,6 @@ module TranscriptWhisperer
 
       response.parsed_response['text']
       File.binread(file_path)
-
-      # puts audio_data
     end
   end
 end
